@@ -9,7 +9,7 @@ const stocksFilePath = path.join(__dirname, "../data/stock.json");
 
 exports.getDetailsOfEachSymbolViaLoop = async (req, res) => {
   try {
-    const allStocksData = []; // Array to store data for all symbols
+    const allStocksData = []; // Array to store data for all symbol
     const symbols = [
       "AAPL",
       "GOOG",
